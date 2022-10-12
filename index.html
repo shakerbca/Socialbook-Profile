@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page - SocialBook</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://kit.fontawesome.com/0f0a3c77c3.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="./img/logo.png" class="logo">
+            <ul>
+                <li><img src="./img/notification.png"></li>
+                <li><img src="./img/inbox.png"></li>
+                <li><img src="./img/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="./img/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="./img/s10.jpg">
+            </div>
+        </div>
+
+
+        <!------------------ settings-menu --------------------->
+        <div class="settings-menu">
+
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./img/s10.jpg">
+                    <div>
+                        <p>Shaker Farooqui&#174;</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                   <hr>
+                    <div class="user-profile">
+                        <img src="./img/feedback.png">
+        
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                   <hr>
+                   <div class="setting-links">
+                    <img src="./img/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="./img/arrow.png" width="10px"></a>
+                   </div>
+
+                   <div class="setting-links">
+                    <img src="./img/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="./img/arrow.png" width="10px"></a>
+                   </div>
+
+                   <div class="setting-links">
+                    <img src="./img/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="./img/arrow.png" width="10px"></a>
+                   </div>
+
+                   <div class="setting-links">
+                    <img src="./img/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="./img/arrow.png" width="10px"></a>
+                   </div>
+
+
+            </div>
+          
+        </div>
+    </nav>
+
+
+        <!-------------------- profile page -------------------->
+
+    <div class="profile-container">
+        <img src="./img/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="./img/s10.jpg" class="pd-image">
+                    <div>
+                        <h3>Shaker Farooqui&#174;</h3>
+                        <p>227 Friends - 20 mutual</p>
+                        <img src="./img/member-1.png">
+                        <img src="./img/member-2.png">
+                        <img src="./img/member-3.png">
+                        <img src="./img/member-4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+
+              <button type="button"><img src="./img/add-friends.png">Friend</button>
+              <button type="button"><img src="./img/message.png">Message</button>
+              <br>
+              <a href=""><img src="./img/more.png"></a>
+
+
+
+            </div>
+        </div>
+
+
+         <div class="profile-info">
+            <div class="info-col">
+
+               
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Belive in yourself and you can do unbelievable things. <img src="./img/feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="./img/profile-job.png">FrontEnd Engineer</li>
+                        <li><img src="./img/profile-study.png"> Studied at SRTMUN Univercity</li>
+                        <li><img src="./img/profile-study.png"> Went to YC-IT Parbhani</li>
+                        <li><img src="./img/profile-home.png"> Lives in Parbhani, Maharashtra</li>
+                        <li><img src="./img/profile-location.png"> From Parbhani,MH22/India </li>
+                    </ul>
+                </div>
+
+                
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Photos</a>
+                    </div>
+                   
+                    <div class="photo-box">
+                        <div> <img src="./img/photo1.png"></div>
+                        <div> <img src="./img/photo2.png"></div>
+                        <div> <img src="./img/photo3.png"></div>
+                        <div> <img src="./img/photo4.png"></div>
+                        <div> <img src="./img/photo5.png"></div>
+                        <div> <img src="./img/photo6.png"></div>
+                    </div>
+                </div>
+
+
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="">All Friends</a>
+                    </div>
+                   <p>123 (10 mutual)</p>
+                    <div class="friends-box">
+                        <div> <img src="./img/member-1.png"><p>Joseph N</p></div>
+                        <div> <img src="./img/member-2.png"><p>Nathan N</p></div>
+                        <div> <img src="./img/member-3.png"><p>George D</p></div>
+                        <div> <img src="./img/member-4.png"><p>Francis L</p></div>
+                        <div> <img src="./img/member-5.png"><p>Anthony E</p></div>
+                        <div> <img src="./img/member-6.png"><p>Michael A</p></div>
+                        <div> <img src="./img/member-7.png"><p>Edward M</p></div>
+                        <div> <img src="./img/member-8.png"><p>Bradon C</p></div>
+                        <div> <img src="./img/member-9.png"><p>James Doe</p></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-col">
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="./img/s10.jpg">
+                        <div>
+                            <p>Shaker Farooqui&#174;</p>
+                            <small>Public</small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, Shaker?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="./img/live-video.png">Live Video</a>
+                            <a href="#"><img src="./img/photo.png">Photo/Video</a>
+                            <a href="#"><img src="./img/feeling.png">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/s10.jpg">
+        
+                            <div>
+                                <p>Shaker Farooqui</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+    
+                    <p class="post-text"> Follow on facebook/instagram/twitter/linkedin/<span>github. to frontend coding</span>/ New-Projects<a href="https://www.linkedin.com/in/shaker-farooqui-6a28251b0/">Linkedin</a></p>
+                    <img src="./img/feed-image-5.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like-blue.png"> 1110</div>
+                           <div><img src="./img/comments.png"> 723</div>
+                           <div><img src="./img/share.png"> 319</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/s10.jpg"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/s10.jpg">
+        
+                            <div>
+                                <p>Shaker Farooqui</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-2.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 721</div>
+                           <div><img src="./img/comments.png"> 418</div>
+                           <div><img src="./img/share.png"> 210</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/s10.jpg"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/s10.jpg">
+        
+                            <div>
+                                <p>Shaker Farooqui</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-3.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 991</div>
+                           <div><img src="./img/comments.png"> 603</div>
+                           <div><img src="./img/share.png"> 337</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/s10.jpg"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/s10.jpg">
+        
+                            <div>
+                                <p>Shaker Farooqui</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-4.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 886</div>
+                           <div><img src="./img/comments.png"> 567</div>
+                           <div><img src="./img/share.png"> 243</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/s10.jpg"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="./img/s10.jpg">
+        
+                            <div>
+                                <p>Shaker Farooqui</p>
+                               <span>June 27 2021, 13:10 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+               
+                    <p class="post-text">Like and share this video with friends, tag <span>Farooqui Shaker</span> facebook page on your post. Ask your doubts in the comments <a href="https://www.facebook.com/home.php?ref=homescreenpwa">Facebook</a></p>
+                    <img src="./img/feed-image-1.png" class="post-img">
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                           <div><img src="./img/like.png"> 809</div>
+                           <div><img src="./img/comments.png"> 514</div>
+                           <div><img src="./img/share.png"> 231</div>
+                        </div>
+                        <div class="post-profile-icon">
+                          <img src="./img/s10.jpg"> <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+    </div>
+     
+    <div class="footer">
+        <p>farooquishaker10@gmail.com<hr><span>&#8383;&#36;&#8366; &#8482;</span>
+
+        </p>
+    </div>
+
+    <script>
+        var settingsmenu = document.querySelector(".settings-menu");
+var darkBtn = document.getElementById("dark-btn");
+
+
+function settingsMenuToggle(){
+    settingsmenu.classList.toggle("settings-menu-height");
+}
+darkBtn.onclick = function(){
+    darkBtn.classList.toggle(".dark-btn-on");
+    document.body.classList.toggle(".dark-theme");
+
+    if(localStorage.getItem("theme") == "light"){
+        localStorage.setItem("theme", "dark");
+
+    }
+    else{
+        localStorage.setItem("theme", "light");
+
+    }
+}
+
+if(localStorage.getItem("theme") == "light"){
+    darkBtn.classList.remove("dark-btn-on");
+    document.body.classList.remove(".dark-theme");
+}
+
+else if (localStorage.getItem("theme") == "dark"){
+    darkBtn.classList.add("dark-btn-on");
+    document.body.classList.add(".dark-theme");
+}
+else{
+    localStorage.setItem("theme", "light");
+}
+    </script>
+</body>
+</html>
